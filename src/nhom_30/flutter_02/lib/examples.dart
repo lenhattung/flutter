@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'baitap01.dart';
 
 class CardExample extends StatelessWidget {
+  const CardExample({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
