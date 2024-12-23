@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'bai_1/ex1.dart';
+//import 'bai_1/ex1.dart';
+import 'bai_2/ex2.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const UserProfileScreen(),
+      home: CounterScreen(),
     );
   }
 }
