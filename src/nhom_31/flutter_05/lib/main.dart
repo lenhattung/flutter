@@ -1,9 +1,23 @@
 import 'package:flutter/material.dart';
-import 'bai_1/ex1.dart';
-import 'bai_2/ex2.dart';
+import 'package:provider/provider.dart';
+import 'bai_3/ex3.dart';
+//import 'bai_1/ex1.dart';
+//import 'bai_2/ex2.dart';
+
+// void main() {
+//   runApp(const MyApp());
+// }
+
 void main() {
-  runApp(const MyApp());
+  runApp(
+    // Đặt Provider ở mức cao nhất để có thể truy cập từ mọi nơi trong app
+    ChangeNotifierProvider(
+      create: (context) => CounterProvider(),
+      child: const MyApp(),
+    ),
+  );
 }
+
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
