@@ -82,3 +82,21 @@ Group 31:
 ==================================================
 
 Fix bug: https://stackoverflow.com/questions/59177152/flutter-error-execution-failed-for-task-appcompiledebugjavawithjavac
+
+
+======= Cấu hình file gradle.properties
+# Memory settings
+org.gradle.jvmargs=-Xmx4G -XX:MaxMetaspaceSize=2G -XX:+HeapDumpOnOutOfMemoryError
+
+# Android settings
+android.useAndroidX=true
+android.enableJetifier=true
+
+# Performance optimizations
+org.gradle.daemon=true
+org.gradle.parallel=true
+org.gradle.caching=true
+org.gradle.configuration-cache=false
+
+# Enable file system watching
+org.gradle.vfs.watch=true
