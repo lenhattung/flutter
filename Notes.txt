@@ -83,3 +83,7 @@ org.gradle.configuration-cache=false
 
 # Enable file system watching
 org.gradle.vfs.watch=true
+
+//====================
+
+Bài kiểm tra số 2: https://forms.gle/3gwDerRp5MfEijUp9
