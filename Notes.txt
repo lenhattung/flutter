@@ -85,5 +85,6 @@ org.gradle.configuration-cache=false
 org.gradle.vfs.watch=true
 
 //====================
+Xin ý kiến khảo sát: https://forms.gle/oj1C7ZaDaeJcCQsW7
 
 Bài kiểm tra số 2: https://forms.gle/3gwDerRp5MfEijUp9
