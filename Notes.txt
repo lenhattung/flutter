@@ -87,4 +87,4 @@ org.gradle.vfs.watch=true
 //====================
 Xin ý kiến khảo sát: https://forms.gle/oj1C7ZaDaeJcCQsW7
 
-Bài kiểm tra số 2: https://forms.gle/3gwDerRp5MfEijUp9
+Nộp file: https://drive.google.com/drive/folders/1gAaUKf1CoPY7GSs3_Yc9w2QbFnv7Pyeq?usp=sharing
